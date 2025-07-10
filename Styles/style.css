@@ -66,7 +66,10 @@ nav h1{
 }
 /* Header Section Ends */
 
-
+/* Main Design */
+main{
+    background-color: #F5F8FF;
+}
 /* Action Section Starts */
 .action{
     margin: 115px 150px;
@@ -194,3 +197,38 @@ nav h1{
     border-radius: 48px;
 }
 /* Focus Section Ends */
+
+
+/* Get in touch Section Starts */
+.get-in-touch{
+    display: flex;
+    gap:115px;
+    margin: 90px 150px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.section-title{
+    font-size: 80px;
+    color: #000000;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+form input{
+    height: 65px;
+    width: 490px;
+    border: 2px solid #D6EDDD;
+    border-radius: 10px;
+}
+#message{
+    height: 140px;
+    margin-bottom: 20px;
+}
+form input[type="button"]{
+    margin-bottom: 70px;
+}
+/* Get in touch Section Ends */
