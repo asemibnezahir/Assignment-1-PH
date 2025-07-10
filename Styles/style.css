@@ -72,7 +72,9 @@ main{
 }
 /* Action Section Starts */
 .action{
-    margin: 115px 150px;
+    margin: 0px 150px;
+    margin-bottom: 115px;
+    padding-top: 115px;
     display: flex;
     gap:220px;
     justify-content: space-between;
@@ -202,14 +204,15 @@ main{
 /* Get in touch Section Starts */
 .get-in-touch{
     display: flex;
-    gap:115px;
-    margin: 90px 150px; 
+    gap:135px;
+    margin: 90px 150px;
     justify-content: space-between;
     align-items: center;
 }
 .section-title{
     font-size: 80px;
     color: #000000;
+    text-align: left;
 }
 form label{
     font-size: 18px;
@@ -220,15 +223,51 @@ form label{
 }
 form input{
     height: 65px;
-    width: 490px;
-    border: 2px solid #D6EDDD;
+    width: 600px;
+    border: 2px solid #D6DDED;
     border-radius: 10px;
+    padding: 20px 32px;
+}
+form input::placeholder{
+    font-size: 20px;
 }
 #message{
     height: 140px;
     margin-bottom: 20px;
+    padding-bottom: 85px;
 }
 form input[type="button"]{
     margin-bottom: 70px;
 }
 /* Get in touch Section Ends */
+
+/* Footer Design Starts */
+footer{
+    margin: 0px 450px 100px;
+    text-align: center;
+}
+.foot-title{
+    font-size: 100px;
+    color: #4E47FF;
+}
+footer p{
+    color:#8987A1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.foot-link ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.foot-link ul a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.foot-link ul a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+/* Footer Design Ends */
